@@ -30,7 +30,7 @@ function startGame() {
     isAlive = true
     let firstCard = getRandomCard()
     let secondCard = getRandomCard()
-    cards = [firstCard, secondCard]
+    cards = [firstCard, ", ", secondCard , ","]
     sum = firstCard + secondCard
     renderGame()
 }
